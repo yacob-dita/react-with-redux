@@ -1,0 +1,69 @@
+.App {
+  margin: auto;
+  border-top: 50px;
+  background-color: blueviolet;
+  display:flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  border: solid;
+}
+
+.displayUsers {
+  margin-top: 20px;
+  border-radius:5px ;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: yellow;
+  cursor: pointer;
+  border:dimgray;
+}
+
+.displayUsers div{
+  width: 400px;
+  height: 150px;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  color: black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1),0 6px 20px 0 rgb(red, green, blue);
+  text-align: center;
+}
+.addUser {
+  /* border: 100px; */
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width:max-content;
+  
+ 
+
+}
+/* this for tablet */
+@media only screen and (min-width: 600px) {
+    .App {
+      background-color: lightblue;
+    }
+    input{
+      background-color: brown;
+    }
+  }
+/* this for phone and small device */
+@media only screen and (max-width: 600px) {
+  .App{
+    background-color: blueviolet;
+    margin: auto;
+    border-top: 50px;
+    background-color: blueviolet;
+    display:flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    border: solid;
+    
+    }
+    
+  input {
+    background-color: white;
+    
+  }
+}
